@@ -1,0 +1,42 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+header
+{
+    grid-column: 2 / -1;
+}
+
+
+div.sidebar
+{
+    grid-column: 1;
+}
+
+nav.menu ul
+{
+    list-style-type: none;
+}
+
+nav.options ul
+{
+    list-style-type: none;
+}
+
+section.main-content
+{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+article.announcements
+{
+    grid-column: 2;
+}
+
+article.trending
+{
+    grid-column: 2;
+}
